@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- 如果使用get方式，则在url后面拼接表单数据，url长度有限制 -->
+    <!--原url：file:///D:/Code/JavaWeb_Heima/HTML/%E8%A1%A8%E6%A0%BC%E8%A1%A8%E5%8D%95/%E8%A1%A8%E5%8D%95%E6%BC%94%E7%A4%BA.html -->
+    <!--提交后url：file:///D:/Code/JavaWeb_Heima/HTML/%E8%A1%A8%E6%A0%BC%E8%A1%A8%E5%8D%95/%E8%A1%A8%E5%8D%95%E6%BC%94%E7%A4%BA.html?username=123&age=123 -->
+    <!-- <form action="" method="get"></form> -->
+
+    <!--使用post方式时，表单数据是在 消息体/请求体 中传递的，无参数大小限制-->
+    <form action="" method="post">
+        用户名：<input type="text" name="username">
+        年龄：<input type="text" name="age">
+        
+        <input type="submit" value="提交">
+    </form>
+
+</body>
+
+</html>
